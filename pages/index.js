@@ -14,7 +14,7 @@ const Homepage = ({ t }) => {
 			<main>
 				<Header title={t("h1")} />
 				<div>
-					<Link href="/" locale={router.locale === "en" ? "de" : "en"}>
+					<Link href="/" locale={router.locale === "en-US" ? "de-DE" : "en-US"}>
 						<button>{t("change-locale")}</button>
 					</Link>
 					<Link href="/second-page">
